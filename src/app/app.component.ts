@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'desafio-contador';
+
+  cont:number = 0
+
+  contarPositivo():number{
+    return this.cont++
+  }
+  
+  contarNegativo():number{
+    return this.cont--
+  }
 }
